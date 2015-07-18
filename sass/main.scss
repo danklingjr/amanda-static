@@ -280,6 +280,7 @@ header[role=banner]{
 }
 .blog__image a:hover img{
 	// transform: scale(1.1);
+	backface-visibility: hidden;
 	filter: blur(7px);
 }
 .post__details{
@@ -327,6 +328,23 @@ header[role=banner]{
 	}
 	.button{
 		margin-top: 40px;
+	}
+}
+.instagram-placeholder{
+	width: 33.333333%;
+	float: left;
+}
+.sidebar{
+	h3{
+		background-color: #fff;
+		padding: 5px 10px;
+		display: block;
+		font-family: $font-primary;
+		font-size: em(18px);
+		font-weight: 700;
+		letter-spacing: 0.4em;
+		color: #252525;
+		text-transform: uppercase;
 	}
 }
 

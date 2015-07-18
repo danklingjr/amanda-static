@@ -669,6 +669,8 @@ header[role=banner] {
   opacity: 0.85; }
 
 .blog__image a:hover img {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   -webkit-filter: blur(7px);
           filter: blur(7px); }
 
@@ -712,6 +714,21 @@ header[role=banner] {
       background-color: #ccc; }
   .blog__post .button {
     margin-top: 40px; }
+
+.instagram-placeholder {
+  width: 33.333333%;
+  float: left; }
+
+.sidebar h3 {
+  background-color: #fff;
+  padding: 5px 10px;
+  display: block;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  color: #252525;
+  text-transform: uppercase; }
 
 /*! ==========================================================================
 // Media Queries
